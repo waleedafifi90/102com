@@ -1,27 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
 header .logo {
-    width: 100px
+    width: 150px;
+    margin: 0 auto;
+    display: block;
 }
 
 header ul {
-    width: 90%;
+    text-align: center;
 }
 
 header nav ul li {
     display: inline-block;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #862a5c;
 }
 
 #MainPageSlider {
-    height: 300px;
+    background-color: #4d3e3e;
+    /* height: 300px; */
     text-align: center;
+    padding: 100px 0;
+}
+
+#MainPageSlider h1 {
+    color: #fff3cd;
+}
+
+#MainPageSlider p {
+    line-height: 50px;
+    color: #f4a548;
+}
+
+#MainPageSlider a {
+    background-color: #7ebdb4;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+main>article {
+    margin-top: 50px;
 }
 
 main article section {
     display: inline-block;
-    width: 33%;
-    margin: auto 10px
+    width: 30%;
+    margin: 0 10px 10px
 }
 
 main article section ul {
     list-style: none;
     text-align: center;
+}
+
+main article section ul li img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+main article section ul li a {
+    background-color: #7ebdb4;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    background-color: #4d3e3e;
+    height: 50px;
+}
+
+footer p {
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
 }
