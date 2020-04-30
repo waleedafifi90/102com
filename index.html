@@ -22,8 +22,12 @@
     <main>
         <div id="MainPageSlider">
             <h1>Kitty Zone</h1>
-            <p>The only place lets you find the best cat for you</p>
-            <a href="#kitty-zone">Fine a Cat</a>
+            <p><span id="Username"></span>The only place lets you find the best cat for you</p>
+            <a href="#kitty-zone" onclick="getCatINformationFromUser();">Fine a Cat</a>
+        </div>
+
+        <div id="user-needs">
+            
         </div>
 
         <article>
@@ -32,7 +36,7 @@
                     <li><img src="https://resc-files-prod.s3.us-west-1.amazonaws.com/s3fs-public/styles/large/public/2018-12/two-adorable-kittens-white-tabby_1.jpg?itok=LwEQ2w54" alt="cat00001"></li>
                     <li><p>Mark</p></li>
                     <li><p>c-10002</p></li>
-                    <li><a href="#adopt">Adopt</a></li>
+                    <li><a href="#adopt" onclick="confirmFunction();">Adopt</a></li>
                 </ul>
             </section>
             <section>
@@ -80,5 +84,8 @@
     <footer>
         <p>&copy; Kitty Zone. All reight reserve</p>
     </footer>
+
+    <script src="js/my-script.js"></script>
+
 </body>
 </html>
