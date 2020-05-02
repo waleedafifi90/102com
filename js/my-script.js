@@ -14,7 +14,7 @@ function getCatINformationFromUser() {
     } else {
         age = age + " Adult";
     }
-
+    console.log('You have enter: ' + color + ',' + age + ',' + name);
     document.getElementById('user-needs').innerHTML = "<table><tr><td>name</td><td>"+ name +"</td></tr><tr><td>age</td><td>"+ age +"</td></tr><tr><td>color</td><td>"+ color +"</td></tr></table>";
 }
 
